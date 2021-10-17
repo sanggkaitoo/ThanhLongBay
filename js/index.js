@@ -16,14 +16,26 @@ function showHidden() {
 
 // Send mail
 
-function sendEmail1() {
-    customer_name = document.getElementById("name-show").value;
+function sendEmail(i) {
 
-    customer_email = document.getElementById("email-show").value;
+    customer_email = "";
 
-    customer_phone = document.getElementById("numberphone-show").value;
+    customer_request = "";
 
-    customer_request = document.getElementById("request-show").value;
+    if (i==1) {
+        customer_name = document.getElementById("name-show").value;
+        
+        customer_email = document.getElementById("email-show").value;
+        
+        customer_phone = document.getElementById("numberphone-show").value;
+        
+        customer_request = document.getElementById("request-show").value;
+    } else {
+        customer_name = document.getElementById("name-hidden").value;
+
+        customer_phone = document.getElementById("phone-hidden").value;
+
+    }
 
 	Email.send({
 	Host: "smtp.gmail.com",

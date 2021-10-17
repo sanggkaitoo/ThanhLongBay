@@ -676,3 +676,21 @@ body {
 #hidden-div {
     display: none;
 }
+
+/* Button */
+.button-advise {
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+}
+
+.button-advise .button-y {
+    background-image: none;
+    background-color: rgb(10, 46, 92);
+    font-weight: 700;
+    transition: all 0.15s ease;
+}
+
+.button-advise .button-y:hover {
+    transform: scale(1.1);
+}
