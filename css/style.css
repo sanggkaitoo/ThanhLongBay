@@ -1,0 +1,678 @@
+body {
+    margin: 0;
+    font-family: "Montserrat", sans-serif !important;
+}
+
+/* Common */
+
+.section1-header1 {
+    font-family: "Sriracha", cursive;
+}
+
+.section1-header2 {
+    font-family: "Oswald", sans-serif;
+}
+
+.section3-content-inner {
+    font-family: "Quicksand", sans-serif;
+}
+
+.button-y {
+    padding: 10px 25px;
+    border-radius: 20px;
+    border: 1px solid #fff;
+    color: #fff;
+    text-transform: uppercase;
+    background-image: url(../img/gold-background-20211004101501.jpeg);
+}
+
+.button-animation {
+    animation-name: zoom-in-zoom-out;
+    -webkit-animation-name: zoom-in-zoom-out;
+    animation-delay: 1s;
+    -webkit-animation-delay: 1s;
+    animation-duration: 1s;
+    -webkit-animation-duration: 1s;
+    animation-iteration-count: infinite;
+    -webkit-animation-iteration-count: infinite;
+}
+
+@keyframes zoom-in-zoom-out {
+    0% {
+        transform: scale(1, 1);
+    }
+    50% {
+        transform: scale(1.1, 1.1);
+    }
+    100% {
+        transform: scale(1, 1);
+    }
+}
+
+.background-format {
+    background-size: cover;
+    background-position: center;
+}
+
+.section-background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-attachment: fixed;
+    overflow: hidden;
+}
+
+/* Section 1 */
+
+.section1 {
+    height: 729.5px;
+}
+
+.section1-wrap {
+    width: 1408px;
+    height: 720px;
+    margin: auto;
+}
+
+.section1-background-img {
+    width: 100%;
+    height: 100%;
+    background-image: url(../img/banner-20211004095750.jpeg);
+    position: relative;
+}
+
+.section1-logo,
+.section1-header1,
+.section1-header2 {
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, 0);
+}
+
+.section1-logo {
+    width: 235.122px;
+    height: 167.361px;
+    top: 0;
+    background-image: url(../img/logo-thesong-thanhlongbay-20211004095828.svg);
+    background-size: cover;
+    background-position: center;
+}
+
+.section1-header1 {
+    color: rgb(17, 10, 92);
+    font-size: 25px;
+    top: 170px;
+}
+
+.section1-header2 {
+    color: rgb(10, 46, 92);
+    text-transform: uppercase;
+    font-size: 38px;
+    top: 210px;
+}
+
+/* Section 2 */
+
+.section2 {
+    position: relative;
+}
+
+.section2-wrap {
+    margin: 0 auto;
+}
+
+.section2-background {
+    background-image: url(../img/bg-main-20211004095750.jpeg);
+}
+
+.section2-content {
+    position: relative;
+}
+
+.section2-header-img {
+    background-image: url(../img/logo-02-20210718183832-20211004100346.jpeg);
+    width: 167px;
+    height: 167px;
+    margin: 0;
+    display: inline-block;
+}
+
+.section2-header-text {
+    display: inline-block;
+    width: 663px;
+    margin-left: 20px;
+}
+
+.section2-header-text h3 {
+    font-weight: 700;
+}
+
+.section2-item {
+    margin-top: 20px;
+}
+
+.section2-item-svg {
+    margin: 0 auto;
+    text-align: center;
+    height: 120px;
+    width: 120px;
+    border-radius: 100%;
+    background-color: rgb(22, 169, 199);
+    position: relative;
+}
+
+.section2-item-img img {
+    position: absolute;
+    top:  50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80px;
+    height: 80px;
+}
+
+.section2-item-text p:first-child{
+    font-weight: 700;
+    font-size: 1.2em;
+    text-transform: uppercase;
+}
+
+.section2-item-wrap {
+    margin-bottom: 40px;
+}
+
+/* Section 3 */
+
+.section3-wrap {
+    position: relative;
+    padding: 40px;
+}
+
+.section3-background {
+    background-position: top;
+    background-image: url(../img/gioi-thieu-m-dt-20211004111758.jpeg);
+}
+
+.section3-content {
+    position: relative;
+    margin: 0 auto;
+    width: 1200px;
+    height: 726px;
+    background-image: url(../img/bg-slogan-20211004100835.jpeg);
+    margin-bottom: 10px;
+}
+
+.section3-content .section1-logo,
+.section3-content .section1-header1,
+.section3-content .section1-header2 {
+    left: 240px;
+}
+
+.section3-content-inner {
+    width: 654px;
+    position: absolute;
+    top: 20px;
+    right: 50px;
+    padding-left: 20px;
+    border-left: 1px solid #000;
+}
+
+.section3-discover {
+    position: relative;
+    height: 257px;
+    background-image: url(../img/bg-banner2-2-09-20211004101142.jpeg);
+}
+
+.section3-discover-content {
+    position: absolute;
+    width: auto;
+    text-align: center;
+    top: 10px;
+    right: 120px;
+    text-transform: uppercase;
+    font-size: 1.6em;
+}
+
+.section3-discover-content h3 {
+    font-weight: 700;
+    margin: 0;
+}
+
+.line {
+    width: 100px;
+    height: 1px;
+    background-color: rgb(10, 46, 92);
+    margin: 20px auto;
+    margin-bottom: 10px;
+}
+
+.section3-discover-content-header2 span {
+    font-size: 1.7em;
+}
+
+.section3-button {
+    margin-top: 20px;
+    color: #fff;
+    font-size: 15px;
+}
+
+/* Section 4 */
+
+.section4, .section6 {
+    background-image: url(../img/bg-main-20211004095750.jpeg);
+    background-attachment: fixed;
+}
+
+.section4-wrap {
+    padding-bottom: 20px;
+}
+
+.section4-about {
+    margin-top: 50px;
+}
+
+.section4-about h3:nth-child(2) {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 1.9 !important;
+}
+
+.section4-map {
+    height: 100%;
+    width: 100%;
+    background-image: url(../img/vi-tri-20211004101607.png);
+}
+
+.section4-about-infor {
+    padding: 15px;
+}
+
+.section4-choice {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.section4-choice-small-header,
+.section4-choice-header {
+    text-transform: uppercase;
+    color: rgb(10, 46, 92);
+}
+
+.section4-choice-small-header {
+    font-size: 1.3em;
+}
+
+.section4-choice-header {
+    font-size: 2.3em;
+    font-weight: 700;
+}
+
+.section4-choice-service {
+    color: #fff;
+    padding: 30px;
+    background-image: url(../img/bg-3luachon-20211004101951.png);
+}
+
+.section4-choice-service-item {
+    height: 518px;
+    padding: 0 25px;
+    margin-top: 40px;
+}
+
+.section4-choice-service-item-wrap {
+    background-color: rgb(22, 169, 199, 0.7);
+    height: 100%;
+    position: relative;
+    padding-top: 80px;
+    border-radius: 20px;
+}
+
+.section4-choice-service-item ul {
+    text-align: left;
+    padding-left: 25px;
+    font-size: 0.95em;
+}
+
+.section4-choice-service-item p {
+    font-weight: 700;
+    font-size: 1.3em;
+}
+
+.section4-choice-service-item-icon {
+    height: 130px;
+    width: 130px;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    background-color: rgb(22, 169, 199);
+    border-radius: 100%;
+    border: 2px solid #fff;
+}
+
+/* Section 5 */
+
+.section5 {
+    background-image: url(../img/bg-tienich-20211004102715.jpeg);
+    background-attachment: fixed;
+    padding-bottom: 20px;
+}
+
+.section5-wrap {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: #fff;
+}
+
+.section5-wrap h3 {
+    text-transform: uppercase;
+}
+
+.section5-wrap h3:nth-child(2) {
+    font-weight: 700;
+    font-size: 2em;
+}
+
+.section5-wrap p {
+    font-size: 0.9em;
+}
+
+.slide-item {
+    position: relative;
+    padding: 10px 10px;
+}
+
+.slide-item-img {
+    height: 230px;
+    width: 405px;
+}
+
+.slide-item-img img {
+    width: 85%;
+    height: 100%;
+    border-radius: 20px;
+}
+
+.slide-item-name {
+    position: absolute;
+    bottom: 25px;
+    left: 50%;
+    transform: translate(-50%, 50%);
+    font-size: 0.9em;
+    font-weight: 700;
+}
+
+/* Section 6 */
+.section6 {
+    padding: 20px 0;
+}
+
+.section6 .section3-discover {
+    background-image: url(../img/bg-banner2-09-20211004103717.jpeg);
+    height: 194px;
+}
+
+.section6 .section3-discover-content {
+    left: 40px;
+    right: inherit;
+}
+
+.section6-utilities {
+    padding-top: 20px;
+    color:rgb(10, 46, 92);
+}
+
+.section6-utilities h3 {
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.section6-utilities h3:nth-child(2) {
+    font-weight: 700;
+    font-size: 2.3em;
+    margin-bottom: 30px;
+}
+
+.section6-section {
+    margin-top: 20px;
+}
+
+.section6-garden-img {
+    background-image: url(../img/ok1-20211004103939.png);
+}
+
+.section6-garden-text .row .row, .section6-ground-text .row {
+    margin-bottom: 20px;
+}
+
+.section6-ground-img {
+    background-image: url(../img/mat-bang-20211004104543.png);
+}
+
+.garden-item-img div{
+    text-align: center;
+    color:#fff;
+    font-weight: 700;
+    line-height: 30px;
+    background-image: url(../img/ikon-20211004104033.png);
+    background-position: left;
+    height: 30px;
+    width: 34px;
+}
+
+.garden-item-text p{
+    line-height: 30px;
+    margin: 0;
+}
+
+.section6-ground-text .garden-item-img div{
+    background-position: right;
+}
+
+.section6-house {
+    align-items: center;
+    text-align: center;
+}
+
+.section6-house img:nth-child(2) {
+    margin-top: 20px;
+    width: 100%;
+}
+
+.section6-house h3 {
+    text-transform: none;
+}
+
+.section6-house-center {
+    position: relative;
+}
+
+.section6-house-center-content {
+    width: 615px;
+    text-align: left;
+    position: absolute;
+    bottom: 0;
+    left: 20px;
+}
+
+.section6-house-center-content .small-header, .section6-house-center-content .big-header {
+    color: rgb(10, 46, 92);
+    text-align: left;
+}
+
+.section6-house-center-content p {
+    font-size: 0.75em;
+    margin-bottom: 0;
+}
+
+.section6-house-center-content .sub-header {
+    font-weight: 700;
+    margin: 10px 0;
+}
+
+.section6-register {
+    margin-top: 20px;
+    background-image: url(../img/bg-ly-do-20211004110002.png);
+    border-radius: 20px;
+    color: #fff;
+}
+
+.section6-register .row:first-child {
+    padding-bottom: 40px;
+}
+
+.section6-register img {
+    width: 90%;
+    margin: 30px 0;
+}
+
+.section6-register-reason {
+    text-align: center;
+    padding-left: 80px;
+}
+
+.section6-register-reason-item img {
+    width: 121px;
+}
+
+.section6-register-reason-item  div {
+    margin-bottom: 20px;
+}
+
+.section6-register-reason-item  div p {
+    margin: 0;
+}
+
+.section6-register-reason-item  div p:last-child {
+    font-weight: 700;
+}
+
+.section6-register-form {
+    text-align: center;
+}
+
+.section6-register-form  h3 {
+    margin: 40px 0;
+    font-weight: 700;
+}
+
+.section6-register-form input {
+    width: 80%;
+    margin-bottom: 10px;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    background-color: rgb(255, 255, 255, 0.7);
+    padding: 10px 5px;
+    color: rgb(0, 0, 0);
+}
+
+.section6-register-form input:focus-visible {
+    outline: none;
+}
+.section6-register-form button {
+    margin-top: 30px;
+}
+
+/* Section 7 */
+
+.section7 {
+    background-image: url(../img/bg-foot-20211004110747.png);
+}
+
+.section7-wrap {
+    padding-top: 10px;
+    padding-bottom: 80px;
+}
+
+.section7-wrap h3 {
+    color: rgb(17, 10, 92);
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.section7-wrap h3:first-child {
+    font-size: 2.3em;
+}
+
+.section7-wrap h3:nth-child(3) {
+    margin: 40px 0;
+}
+
+.section7-wrap img:nth-child(4) {
+    width: 100%;
+    margin-bottom: 80px;
+}
+
+/* Section 8 */
+
+.section8 {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: 10;
+}
+
+.section8-wrap {
+    position: relative;
+}
+
+.section-hidden-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 782px;
+    height: 480px;
+    background-image: url(../img/popup-cdt09-20211004113647.jpeg);
+}
+
+.section8-wrap {
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.hidden-form-wrap {
+    position: relative;
+}
+
+.hidden-form {
+    margin-top: 20px;
+    color: #fff;
+    text-transform: uppercase;
+    padding-top: 20px;
+    text-align: center;
+}
+
+.hidden-form h3:nth-child(2) {
+    font-weight: 700;
+}
+
+.hidden-form h3:nth-child(3) {
+    font-size: 1em;
+}
+
+.hidden-highlight {
+    width: 140px;
+    height: 30px;
+    margin: 20px auto;
+    font-size: 0.6em;
+    padding: 0;
+    line-height: 30px;
+}
+
+.close {
+    position: absolute;
+    top: 5px;
+    right: 10px;
+    color: #fff;
+    font-size: 1.8em;
+}
+
+#hidden-div {
+    display: none;
+}
